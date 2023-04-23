@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border: "1px solid black";
+    margin: "10px";
+    padding: "10px";
+  }
+
+  .card__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+.image_kas {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0;
+    transition: opacity 0.5s ease
+  }
+  .heading:hover {
+    opacity: 1;
+  }
+  
+  .paragraph {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 20px 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 10px solid black;;
+    border-radius: 20px;
+    background-color: #00ff91;
+    color: #080101;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-align: center;
+  }
+
+  
+  button:hover,
+  button:focus {
+    background-color: #7b777c;
+    color: #130309;
+  }
+  
+  .fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }

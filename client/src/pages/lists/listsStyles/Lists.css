@@ -1,0 +1,43 @@
+table {
+    border-collapse: separate; /* разделение границ столбцов и ячеек */
+    border-spacing: 0; /* задает расстояние между границами ячеек */
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd; /* добавляем границы ячеек */
+  }
+  
+  th {
+    background-color: #F2F2F2;
+    color: #444444;
+    font-weight: bold;
+    border: 1px solid #ddd; /* добавляем границы заголовка таблицы */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #F2F2F2;
+  }
+  
+  tr:hover {
+    background-color: #D4EDDA;
+  }
+  
+  .buttoncp {
+    background-color: #F5F5F5;
+    color: #555555;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .buttoncp:hover {
+    background-color: #E8E8E8;
+  }
+  
+  
+  
